@@ -8,6 +8,9 @@ We used a **Random Forest** as the core model architecture, fine-tuned in a mult
 2. Fine-tuning on K2.
 3. Final tuning on TESS, excluding validation data to prevent leakage.
 
+**Model Training Pipeline**: Visual representation of the model training workflow used for the project.  
+![Model Training Pipeline](https://github.com/LinukPerera/Laplace-Ecliptic-ExoPlanet-Hunting-NASA-Space-Apps-Challange/blob/main/diagrams%20and%20presentations/Pasted%20Graphic.png?raw=true)
+
 To improve efficiency, we used **Random Forest Feature Importance** for **feature selection**, reducing dimensionality while boosting performance. Loss functions were adapted dynamically during each stage to prevent overfitting and encourage generalization across datasets. Our final model achieved **93% accuracy** on a combined validation set, outperforming benchmarks from published ensemble models (~84%).
 
 We also developed a **Flask/FastAPI-based backend** for real-time inference. This API supports **Model-as-a-Service architecture**, allowing rapid deployment and smooth data integration for future NASA missions or researchers.
