@@ -12,7 +12,7 @@ We used a **Random Forest** as the core model architecture, fine-tuned in a mult
 
 ---
 
-![Model Training Pipeline](https://github.com/LinukPerera/Laplace-Ecliptic-ExoPlanet-Hunting-NASA-Space-Apps-Challange/blob/main/diagrams%20and%20presentations/Laplace%20Ecliptic%20Model%20Architecture.png?raw=true)
+![Model Training Pipeline](https://github.com/LinukPerera/Laplace-Ecliptic-ExoPlanet-Hunting-NASA-Space-Apps-Challange/blob/main/diagrams%20and%20presentations/Model%20Training%20Architecture.png?raw=true)
 
 To improve efficiency, we used **Random Forest Feature Importance** for **feature selection**, reducing dimensionality while boosting performance. Loss functions were adapted dynamically during each stage to prevent overfitting and encourage generalization across datasets. Our final model achieved **93% accuracy** on a combined validation set, outperforming benchmarks from published ensemble models (~84%).
 
